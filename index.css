@@ -1,0 +1,396 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    background-image: url(./images/main.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    align-items: center;
+}
+
+.names {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 70px;
+    margin: 0 auto;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.names-text {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.names-date {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    margin: 0;
+    padding: 100px 0 0 0;
+}
+
+.invintation {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background: url(./images/hello.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-content: space-arround;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 350px;
+}
+
+.invintation-block {
+    margin: 0;
+
+}
+
+.invintation-header {
+    color: #74180f;
+    font-size: 40px;
+    display: flex;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.invintation-text {
+    color: #8C6146;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 2px;
+    width: 350px;
+    margin: 0;
+    padding: 35px 0 0 0;
+}
+
+.foto {
+    background: url(./images/alph.jpg);
+    width: 350px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 150px 150px 150px 150px;
+}
+
+.date {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background: #fcf9f6;
+    justify-content: center;
+    padding: 0;
+}
+
+.weddate {
+    color: #74180f;
+    font-size: 70px;
+    font-weight: 200;
+    margin: 0;
+    align-self: center;
+    padding: 0 0 75px 0;
+}
+
+.date-calendar {
+    margin: 0;
+    padding: 0;
+    width: 512px;
+}
+
+.year {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 512px;
+    height: 66px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: #8C6146;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.week {
+    display: grid;
+    grid-template-areas:
+        "days days days days days days days"
+        "days days days days days days days"
+        "days days days days days days days"
+        "days days days days days days days"
+        "days days days days days days days"
+        "days days days days days days days";
+    text-transform: uppercase;
+    color: #8C6146;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    place-items: center;
+    column-gap: 40px;
+    row-gap: 31px;
+}
+
+.num-date {
+    font-family: "Baskervville", serif;
+    font-weight: 300;
+}
+
+.dayoff {
+    color: rgb(204, 11, 11);
+}
+
+.thatday {
+    outline: 1px solid #74180f;
+    padding: 8px 10px;
+    border-radius: 50%;
+    background-color: #74180f;
+    color: #fff;
+}
+
+.location {
+    background-color: #b39987;
+    color: #f4f4f4;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.location-header {
+    display: flex;
+    width: 320px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 120%;
+    margin: 0;
+    padding: 0 0 130px 0;
+    position: relative;
+    align-self: center;
+}
+
+.location-header-decor:after {
+    content: '';
+    position: absolute;
+    width: 320px;
+    height: 3px;
+    background: #f4f4f4;
+    top: 90px;
+    left: 0;
+    border-radius: 50%;
+}
+
+.location-header-text {
+    margin: 0;
+    padding: 0;
+}
+
+.location-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.registration-title {
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 120%;
+    letter-spacing: 4px;
+    padding: 0 0 25px 0;
+    align-self: center;
+}
+
+.location-text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 120%;
+    padding-bottom: 10px;
+}
+
+.start-time {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    position: relative;
+    align-self: center;
+}
+
+.start-time-decor::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 45px;
+    background: #f4f4f4;
+    top: 60%;
+    left: 42%;
+    border-radius: 50%;
+}
+
+.start-time-people {
+    margin: 0;
+    padding: 0px 80px 0 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+.start-time-clock {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 120%;
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    margin-top: 50px;
+    align-self: center;
+}
+
+.button-link {
+    color: #f4f4f4;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    height: 40px;
+    outline: 2px solid #f4f4f4;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.rules {
+    width: 100%;
+    height: 100vh;
+    background: url(./images/wishes.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.coutdown {
+    width: 100%;
+    height: 534px;
+    background: #fffbf7;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 0 0;
+    align-items: center;
+}
+
+.coutdown-title {
+    margin: 0;
+    padding: 0 0 70px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 120%;
+    color: #8C6146;
+    font-family: "Poiret One", sans-serif;
+}
+
+.countdown-launch {
+    display: flex;
+}
+
+.countdown-launch-content {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 25px;
+    outline: 1px solid #8C6146;
+    border-radius: 70px;
+    margin-right: 40px;
+}
+
+.countdown-launch-content:last-child {
+    margin-right: 0;
+}
+
+.countdown-launch-content p {
+    margin: 0;
+    padding: 0;
+    color: #8C6146;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+
+}
+
+.countdown-launch-content span {
+    margin: 0;
+    padding: 0;
+    color: #8C6146;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    position: relative;
+}
+
+.rules-header {
+    color: #f4f4f4;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 120%;
+    margin: 0;
+    padding: 100px;
+}
