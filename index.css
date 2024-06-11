@@ -135,6 +135,14 @@
     }
 }
 
+@media screen and (max-width: 480px){
+    .event-header{ 
+        box-sizing: border-box;
+        padding: 0 10px 0 10px;
+        font-size: 45px;
+    }
+}
+
 .event-text{
     font-weight: 300;
     font-size: 20px;
@@ -148,6 +156,16 @@
     .event-text{
         text-align: center;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .event-text{
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 15px 0 15px;
+        font-size: 18px;
     }
 }
 
