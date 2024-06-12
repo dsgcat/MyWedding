@@ -704,7 +704,7 @@
         width: 100px;
         height: 100px;
         padding: 15px;
-        
+
     }
 }
 
@@ -724,6 +724,7 @@
         margin-right: 5px;
     }
 }
+
 .countdown-launch-content:last-child {
     margin-right: 0;
 }
@@ -755,7 +756,7 @@
     .countdown-launch-content p {
         font-size: 10px;
     }
-    }
+}
 
 .countdown-launch-content span {
     margin: 0;
@@ -776,6 +777,59 @@
     .countdown-launch-content span {
         font-size: 10px;
         line-height: 100%;
-        
+
     }
+}
+
+.rules {
+    background-color: #f5f5eb;
+    max-width: 1600px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    color: #8C6146;
+    padding: 100px 0 100px 0;
+    box-sizing: border-box;
+    font-family: "Poiret One", sans-serif;
+}
+
+.rules-header {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 120%;
+}
+
+@media screen and (max-width: 1080px){
+    .rules-header {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 773px){
+    .rules-header {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+.rules-text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+}
+
+@media screen and (max-width: 773px){
+    .rules-text {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+.slider{
+    font-size: 20px;
 }
