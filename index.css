@@ -1,4 +1,4 @@
-.body{
+.body {
     margin: 0 auto;
     background-color: #f7f7f7;
     font-family: "Jura", sans-serif;
@@ -7,7 +7,7 @@
     color: #fff;
 }
 
-.header{
+.header {
     max-width: 1600px;
     margin: 0 auto;
     height: 100vh;
@@ -21,13 +21,13 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 430px){
-    .header{
+@media screen and (max-width: 430px) {
+    .header {
         max-width: 430px;
     }
 }
 
-.header-title{
+.header-title {
     margin: 0;
     padding: 0;
     margin-block-start: 0;
@@ -39,21 +39,28 @@
 }
 
 
-@media screen and (max-width: 480px){
-    .header-title{
+@media screen and (max-width: 500px) {
+    .header-title {
         max-width: 430px;
         font-size: 60px;
     }
 }
 
-@media screen and (max-width: 430px){
-    .header-title{
+@media screen and (max-width: 430px) {
+    .header-title {
         max-width: 430px;
-        font-size: 60px;
+        font-size: 55px;
     }
 }
 
-.header-text{
+@media screen and (max-width: 360px) {
+    .header-title {
+        max-width: 320px;
+        font-size: 40px;
+    }
+}
+
+.header-text {
     margin: 0;
     padding: 100px 0 0 0;
     font-family: "Poiret One", sans-serif;
@@ -62,24 +69,26 @@
     font-size: 40px;
 }
 
-@media screen and (max-width: 480px){
-    .header-text{
+@media screen and (max-width: 480px) {
+    .header-text {
         font-size: 25px;
         padding: 50px 0 0 0;
     }
 }
 
-@media screen and (max-width: 430px){
-    .header-text{
+@media screen and (max-width: 430px) {
+    .header-text {
         font-size: 25px;
         padding: 50px 0 0 0;
     }
 }
-.main{
+
+.main {
     margin: 0 auto;
-    padding:0;
+    padding: 0;
 }
-.event{
+
+.event {
     max-width: 1600px;
     margin: 0 auto;
     min-height: 975px;
@@ -90,20 +99,10 @@
     box-sizing: border-box;
     color: #8C6146;
 }
-/*
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-=====================================
-Съехало на 834 блок event
-нет адаптации на 1024
-1280 исправить
-1366 адаптировать
-1440 адаптироватьь - сделать меньше margin у фотки
-1280 адаптировать
-======================================
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-*/
-@media screen and (max-width: 820px){
-    .event{
+
+
+@media screen and (max-width: 1000px) {
+    .event {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
@@ -112,21 +111,35 @@
     }
 }
 
-.event-description{
+.event-description {
     max-width: 540px;
-    margin:0;
+    margin: 0;
     padding: 300px 0 0 300px;
-    position: relative;
 }
 
-@media screen and (max-width: 820px){
-    .event-description{
+@media screen and (max-width: 1440px) {
+    .event-description {
+        max-width: 540px;
+        margin: 0;
+        padding: 300px 0 0 200px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .event-description {
+        padding: 300px 0 0 100px;
+        max-width: 430px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .event-description {
         margin: 0;
         padding: 0;
     }
 }
 
-.event-header{
+.event-header {
     margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-start: 0;
@@ -139,39 +152,46 @@
     font-family: "Poiret One", sans-serif;
 }
 
-@media screen and (max-width: 820px){
-    .event-header{
+@media screen and (max-width: 1024px) {
+    .event-header {
+        padding-bottom: 30px;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .event-header {
         padding-bottom: 30px;
         text-align: center;
     }
 }
 
-@media screen and (max-width: 480px){
-    .event-header{ 
+@media screen and (max-width: 480px) {
+    .event-header {
         box-sizing: border-box;
         padding: 0 10px 0 10px;
         font-size: 45px;
     }
 }
 
-.event-text{
+.event-text {
     font-weight: 300;
     font-size: 20px;
     line-height: 120%;
     margin: 0;
-    padding:0 0 0 0;
+    padding: 0 0 0 0;
     width: 350px;
 }
 
-@media screen and (max-width: 820px){
-    .event-text{
+@media screen and (max-width: 1000px) {
+    .event-text {
         text-align: center;
         width: 100%;
     }
 }
 
-@media screen and (max-width: 480px){
-    .event-text{
+@media screen and (max-width: 480px) {
+    .event-text {
         text-align: center;
         width: 100%;
         box-sizing: border-box;
@@ -180,10 +200,10 @@
     }
 }
 
-.event-foto{
+.event-foto {
     background: url(./images/alph.jpg);
-    width: 300px;
-    height: 500px;
+    width: 500px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 55px;
@@ -193,8 +213,38 @@
     align-self: center;
 }
 
-@media screen and (max-width: 820px){
-    .event-foto{
+@media screen and (max-width: 1536px) {
+    .event-foto {
+        margin: 0 0 0 50px;
+        width: 400px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .event-foto {
+        margin: 0 0 0 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .event-foto {
+        width: 400px;
+        height: 500px;
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .event-foto {
+        width: 350px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .event-foto {
+        width: 250px;
+        height: 350px;
     }
 }
