@@ -113,6 +113,12 @@
     }
 }
 
+@media screen and (max-width: 440px) {
+    .event {
+        min-height: 700px;
+    }
+}
+
 .event-description {
     max-width: 540px;
     margin: 0;
@@ -154,6 +160,13 @@
     font-family: "Poiret One", sans-serif;
 }
 
+@media screen and (max-width: 1220px) {
+    .event-header {
+        padding: 0 30px 50px 0;
+        font-size: 50px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .event-header {
         padding-bottom: 30px;
@@ -173,6 +186,13 @@
         box-sizing: border-box;
         padding: 0 10px 0 10px;
         font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .event-header {
+        font-size: 35px;
+        padding-bottom: 25px;
     }
 }
 
