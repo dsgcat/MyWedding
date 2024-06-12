@@ -21,9 +21,11 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 1024px) {
     .header {
-        max-width: 430px;
+        background: url(./images/main-mobile.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
@@ -247,4 +249,127 @@
         width: 250px;
         height: 350px;
     }
+}
+
+/* календарь*/
+
+.date {
+    max-width: 1600px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background: #fcf9f6;
+    padding: 0;
+    color: #8C6146;
+    padding: 100px 0 100px 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 635px) {
+    .date {
+        min-height: 500px;
+    }
+}
+
+.date-title {
+    margin: 0;
+    padding: 0 0 100px 0;
+    font-weight: 200;
+    font-size: 70px;
+    line-height: 120%;
+    color: #864646;
+    font-family: "Poiret One", sans-serif;
+}
+
+@media screen and (max-width: 635px) {
+    .date-title {
+        font-size: 50px;
+        padding: 0 0 50px 0;
+    }
+}
+
+@media screen and (max-width: 448px) {
+    .date-title {
+        font-size: 30px;
+    }
+}
+
+.year {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 512px;
+    height: 66px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: #8C6146;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+@media screen and (max-width: 635px) {
+    .year {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 448px) {
+    .year {
+        width: 280px;
+    }
+}
+
+.week {
+    display: grid;
+    grid-template-areas:
+        "days days days days days days days"
+        "days days days days days days days"
+        "days days days days days days days"
+        "days days days days days days days"
+        "days days days days days days days"
+        "days days days days days days days";
+    text-transform: uppercase;
+    color: #8C6146;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    place-items: center;
+    row-gap: 31px;
+}
+
+@media screen and (max-width: 635px) {
+    .week {
+        row-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 448px) {
+    .week {
+        row-gap: 10px;
+        font-size: 14px;
+    }
+}
+
+.num-date {
+    font-family: "Baskervville", serif;
+    font-weight: 300;
+}
+
+.dayoff {
+    color: rgb(204, 11, 11);
+}
+
+.thatday {
+    outline: 1px solid #74180f;
+    padding: 8px 10px;
+    border-radius: 50%;
+    background-color: #74180f;
+    color: #fff;
 }
