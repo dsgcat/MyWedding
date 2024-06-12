@@ -41,7 +41,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 515px) {
     .header-title {
         max-width: 430px;
         font-size: 60px;
@@ -392,4 +392,231 @@
     border-radius: 50%;
     background-color: #74180f;
     color: #fff;
+}
+
+.rendezvous{
+    max-width: 1600px;
+    margin: 0 auto;
+    min-height: 975px;
+    display: flex;
+    background: url(./images/hello.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    color: #8C6146;
+}
+
+.rendezvous {
+    max-width: 1600px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background: #b39987;
+    padding: 0;
+    color: #fff;
+    padding: 100px 0 100px 0;
+    box-sizing: border-box;
+    font-family: "Poiret One", sans-serif;
+}
+
+.rendezvous-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.rendezvous-title {
+    margin: 0;
+    padding: 0 0 25px 0;
+    font-weight: 200;
+    font-size: 70px;
+    line-height: 120%;
+    font-family: "Poiret One", sans-serif;
+}
+
+@media screen and (max-width: 512px) {
+    .rendezvous-title {
+        font-size: 40px;
+    }
+}
+
+.rendezvous-wrapper-decoration {
+    width: 240px;
+    border-top: 1px solid #FFFFFD;
+}
+
+.rendezvous-block {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-items: center;
+}
+
+
+@media screen and (max-width: 1220px) {
+    .rendezvous-block {
+        flex-direction: column;
+
+    }
+}
+
+.registration {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 1220px) {
+    .registration-adaption {
+        padding-top: 120px;
+
+    }
+}
+
+@media screen and (max-width: 627px) {
+    .registration {
+        width: 400px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .registration {
+        width: 300px;
+        text-align: center;
+    }
+}
+
+.registration-title {
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 120%;
+    letter-spacing: 4px;
+    padding: 0 0 15px 0;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+@media screen and (max-width: 512px) {
+    .registration-title {
+        font-size: 20px;
+    }
+}
+
+.registration-text {
+    margin: 0;
+    padding: 0 0 8px 0;
+}
+
+@media screen and (max-width: 512px) {
+    .registration-text {
+        font-size: 14px;
+    }
+}
+
+.registration-text-name {
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.registration-time {
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 100px;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 627px) {
+    .registration-time {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .registration-time {
+        max-width: 315px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 335px) {
+    .registration-time {
+        max-width: 300px;
+    }
+}
+
+.registration-time-people {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 627px) {
+    .registration-time-people {
+        font-weight: 200;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .registration-time-people {
+        font-weight: 200;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+.registration-time-clock {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 627px) {
+    .registration-time-clock {
+        font-weight: 200;
+        font-size: 20px;
+    }
+}
+
+.button {
+    margin-top: 50px;
+    align-self: center;
+}
+
+.button-link {
+    color: #f4f4f4;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    height: 40px;
+    outline: 2px solid #f4f4f4;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.button-link:hover {
+    background-color: #847468;
+    outline: 2px solid #594d45;
 }
