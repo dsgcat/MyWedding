@@ -394,7 +394,7 @@
     color: #fff;
 }
 
-.rendezvous{
+.rendezvous {
     max-width: 1600px;
     margin: 0 auto;
     min-height: 975px;
@@ -548,6 +548,7 @@
         justify-content: center;
     }
 }
+
 @media screen and (max-width: 335px) {
     .registration-time {
         max-width: 300px;
@@ -608,6 +609,9 @@
     padding: 0;
     width: 170px;
     height: 40px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -khtml-border-radius: 30px;
     border: 2px solid #f4f4f4;
     display: flex;
     box-sizing: border-box;
@@ -618,5 +622,5 @@
 
 .button-link:hover {
     background-color: #847468;
-   border: 2px solid #594d45;
+    border: 2px solid #594d45;
 }
