@@ -387,7 +387,7 @@
 }
 
 .thatday {
-    outline: 1px solid #74180f;
+    box-sizing: border-box;
     padding: 8px 10px;
     border-radius: 50%;
     background-color: #74180f;
