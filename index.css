@@ -608,7 +608,7 @@
     padding: 0;
     width: 170px;
     height: 40px;
-    outline: 2px solid #f4f4f4;
+    border: 2px solid #f4f4f4;
     display: flex;
     box-sizing: border-box;
     align-items: center;
@@ -618,5 +618,5 @@
 
 .button-link:hover {
     background-color: #847468;
-    outline: 2px solid #594d45;
+   border: 2px solid #594d45;
 }
