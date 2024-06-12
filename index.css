@@ -624,3 +624,158 @@
     background-color: #847468;
     border: 2px solid #594d45;
 }
+
+.coutdown {
+    max-width: 1600px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: #fffbf7;
+    padding: 0;
+    color: #8C6146;
+    padding: 100px 0 100px 0;
+    box-sizing: border-box;
+    font-family: "Poiret One", sans-serif;
+}
+
+.coutdown-title {
+    margin: 0;
+    padding: 0 0 70px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 120%;
+    color: #8C6146;
+    font-family: "Poiret One", sans-serif;
+}
+
+@media screen and (max-width: 1250px) {
+    .coutdown-title {
+        font-weight: 200;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 958px) {
+    .coutdown-title {
+        font-weight: 200;
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .coutdown-title {
+        font-weight: 200;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .coutdown-title {
+        font-weight: 200;
+        font-size: 15px;
+        max-width: 319px;
+        text-align: center;
+    }
+}
+
+.countdown-launch {
+    display: flex;
+}
+
+.countdown-launch-content {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 25px;
+    outline: 1px solid #8C6146;
+    border-radius: 70px;
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 958px) {
+    .countdown-launch-content {
+        width: 100px;
+        height: 100px;
+        padding: 15px;
+        
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .countdown-launch-content {
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .countdown-launch-content {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        margin-right: 5px;
+    }
+}
+.countdown-launch-content:last-child {
+    margin-right: 0;
+}
+
+.countdown-launch-content p {
+    margin: 0;
+    padding: 0;
+    color: #8C6146;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+
+}
+
+@media screen and (max-width: 958px) {
+    .countdown-launch-content p {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .countdown-launch-content p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .countdown-launch-content p {
+        font-size: 10px;
+    }
+    }
+
+.countdown-launch-content span {
+    margin: 0;
+    padding: 0;
+    color: #8C6146;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+@media screen and (max-width: 786px) {
+    .countdown-launch-content span {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .countdown-launch-content span {
+        font-size: 10px;
+        line-height: 100%;
+        
+    }
+}
