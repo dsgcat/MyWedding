@@ -700,6 +700,7 @@
     -khtml-border-radius: 70px;
     border-radius: 70px;
     margin-right: 40px;
+    transform: translateZ(0);
     
 }
 
