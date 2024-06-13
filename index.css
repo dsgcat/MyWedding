@@ -695,8 +695,12 @@
     text-align: center;
     padding: 25px;
     outline: 1px solid #8C6146;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -khtml-border-radius: 70px;
     border-radius: 70px;
     margin-right: 40px;
+    
 }
 
 @media screen and (max-width: 958px) {
@@ -704,7 +708,10 @@
         width: 100px;
         height: 100px;
         padding: 15px;
-
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -khtml-border-radius: 25px;
+        border-radius: 25px;
     }
 }
 
@@ -734,7 +741,7 @@
     padding: 0;
     color: #8C6146;
     font-family: "Poiret One", sans-serif;
-    font-weight: 400;
+    font-weight: bolder;
     font-style: normal;
     font-size: 70px;
 
@@ -762,7 +769,7 @@
     margin: 0;
     padding: 0;
     color: #8C6146;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
     line-height: 120%;
 }
@@ -932,7 +939,7 @@
 }
 
 @media screen and (max-width: 429px) {
-    .contacts-decoration{
+    .contacts-decoration {
         padding: 0 0 15px 0;
     }
 }
@@ -954,7 +961,7 @@
 
 
 @media screen and (max-width: 429px) {
-    .contacts-text{
+    .contacts-text {
         padding: 15px 0 50px 0;
     }
 }
@@ -985,8 +992,8 @@
 
 @media screen and (max-width: 425px) {
     .phone {
-        width: 140px;
-        height: 30px;
+        width: 160px;
+        height: 35px;
         font-weight: 600;
         font-size: 15px;
     }
