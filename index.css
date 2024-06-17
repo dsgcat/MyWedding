@@ -694,13 +694,12 @@
     align-content: center;
     text-align: center;
     padding: 25px;
-    outline: 1px solid #8C6146;
     -webkit-border-radius: 70px;
     -moz-border-radius: 70px;
     -khtml-border-radius: 70px;
+    border: 1px solid #8C6146;
     border-radius: 70px;
     margin-right: 40px;
-    transform: translateZ(0);
     
 }
 
