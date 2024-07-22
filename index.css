@@ -223,7 +223,7 @@
 }
 
 .event-foto {
-    background: url(./images/alph.jpg);
+    background: url(./images/IMG_9740.JPG);
     width: 500px;
     height: 700px;
     background-repeat: no-repeat;
@@ -252,8 +252,8 @@
 @media screen and (max-width: 1000px) {
     .event-foto {
         width: 400px;
-        height: 500px;
-        margin: 0;
+        min-height: 500px;
+        margin: 0 0 0 20px;
     }
 }
 
@@ -261,13 +261,15 @@
     .event-foto {
         width: 350px;
         height: 450px;
+        margin: 0 0 0 0;
     }
 }
 
 @media screen and (max-width: 360px) {
     .event-foto {
-        width: 250px;
-        height: 350px;
+        width: 100%;
+        min-height: 350px;
+        
     }
 }
 
