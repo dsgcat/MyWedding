@@ -1046,6 +1046,18 @@
 
 }
 
+.foto{
+    background: url(./images/IMG_9337.JPG);
+    max-width: 1600px;
+    min-height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+}
+
 .footer{
     max-width: 1600px;
     margin: 0 auto;
